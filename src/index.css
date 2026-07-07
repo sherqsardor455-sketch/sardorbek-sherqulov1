@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer utilities {
+  /* Print styling for professional resume export */
+  @media print {
+    body {
+      background-color: white !important;
+      color: black !important;
+    }
+    nav, footer, section, button, #top-nav-bar {
+      display: none !important;
+    }
+    #printable-cv {
+      display: block !important;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      padding: 0 !important;
+      margin: 0 !important;
+      background: white !important;
+      color: black !important;
+    }
+    #printable-cv * {
+      color: black !important;
+      background-color: transparent !important;
+      border-color: #e5e7eb !important;
+    }
+  }
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "Sardorbek Portfeli",
+  "description": "Sherqulov Sardorbek Shoqosim O'g'li - Shaxsiy Portfeli, Ma'lumotlar tahlilchisi va Web Dasturchi interaktiv resume va portfolio sayti.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
