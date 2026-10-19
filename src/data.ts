@@ -8,7 +8,7 @@ import { ProjectItem, TimelineItem, SkillItem, SoftSkillItem } from './types';
 export const personalInfo = {
   fullName: "Sherqulov Sardorbek",
   patronymic: "Shoqosim O'g'li",
-  title: "Ma'lumotlar tahlilchisi | Web Dasturchi",
+  title: "Menejer | Iqtisodchi | AI mutaxassisi",
   birthDate: "2005-yil 16-iyul",
   birthPlace: "Qashqadaryo viloyati Koson tumani",
   currentEducation: "QDTU (Menejment)",
@@ -16,7 +16,7 @@ export const personalInfo = {
   phone: "+998 91 455 43 23",
   email: "sherqsardor455@gmail.com",
   location: "Koson tumani, Qashqadaryo",
-  age: 20,
+  age: 21,
   bioLines: [
     "Men Sherqulov Sardorbek Shoqosim o'g'li 2005-yil 16-iyulda Qashqadaryo viloyati Koson tumanida tug'ilganman. Hozirda Koson tumanida istiqomat qilmoqdaman.",
     "2026-yil Qarshi davlat texnika universitetini tamomlaganman, 2024-2026-yillar davomida Qashqadaryo viloyat statistika boshqarmasida ish faoliyatimni olib borganman."

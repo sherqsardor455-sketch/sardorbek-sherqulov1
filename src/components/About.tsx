@@ -43,9 +43,8 @@ export default function About() {
               <span className="font-sans text-4xl font-extrabold text-purple-400">
                 {personalInfo.age}
               </span>
-              <span className="font-sans text-[10px] uppercase tracking-widest leading-none font-bold text-slate-200">
-                YOSHDA <br />
-                <span className="text-white/50 text-[9px] lowercase font-normal">muhandis</span>
+              <span className="font-sans text-xs uppercase tracking-widest font-bold text-slate-200">
+                YOSHDA
               </span>
             </motion.div>
           </motion.div>
@@ -73,9 +72,6 @@ export default function About() {
                   {line}
                 </p>
               ))}
-              <p className="text-red-500 font-sans text-base md:text-lg leading-relaxed font-medium pt-4">
-                Sevgan qizi yo'q 😊
-              </p>
             </div>
 
             {/* Quick stats / facts */}
